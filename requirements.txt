@@ -1,4 +1,5 @@
 pyTelegramBotAPI
+telebot
 flask
 logging
 json
