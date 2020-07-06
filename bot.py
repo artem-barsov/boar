@@ -14,7 +14,7 @@ class MyEncoder(JSONEncoder):
     def default(self, o):
         return o.__dict__
 showJSON = False
-
+# testttttttttttttttttttttttttttttt
 @bot.message_handler(content_types=['text'], func=lambda message: hasattr(message, 'text') and \
                                                                   message.text != None and \
                                                                   message.text[0:9] == 'show JSON')
