@@ -1,7 +1,6 @@
-telebot
+pyTelegramBotAPI
 flask
 logging
 json
-psycopg2-binary
 sys
 os
