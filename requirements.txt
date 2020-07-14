@@ -1,0 +1,6 @@
+pyTelegramBotAPI
+flask
+logging
+json
+sys
+os
