@@ -1,2 +1,6 @@
+[packages]
+pyTelegramBotAPI = "*"
+flask = "*"
+
 [requires]
 python_version = "3.8"
