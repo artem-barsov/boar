@@ -17,6 +17,14 @@ def echo_message(message):
         else:
             bot.reply_to(message, cue)
 
+@bot.edited_message_handler(content_types=['text'])
+def echo_message(message):
+    if symb in message.text:
+        if message.from_user.username == 'Artem_Barsov' or message.from_user.id == 121442647:
+            bot.reply_to(message, symb)
+        else:
+            bot.reply_to(message, cue)
+
 if "HEROKU" in list(os.environ.keys()):
     logger = telebot.logger
     telebot.logger.setLevel(logging.INFO)
